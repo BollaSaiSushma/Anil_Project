@@ -1,0 +1,23 @@
+# venv & Python
+.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+
+
+# env & secrets
+.env
+google_credentials.json
+
+
+# data & logs
+/data/*.csv
+/data/*.json
+/data/*.db
+/data/logs/
+/logs/
+/data/maps/latest_map.html
+
+
+# pytest/cache
+.pytest_cache/
